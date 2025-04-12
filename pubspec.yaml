@@ -1,0 +1,44 @@
+name: petzy
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+ # Core packages
+  firebase_core: ^2.15.1
+  firebase_auth: ^4.11.1
+  cloud_firestore: ^4.8.3
+  firebase_storage: ^11.6.5
+
+  # State management
+  provider: ^6.1.1
+# UI
+  carousel_slider: ^4.2.1
+  intl: ^0.18.1
+  flutter_dotenv: ^5.0.2
+
+# Image handling
+  image_picker: ^0.8.7+3
+  cached_network_image: ^3.3.0
+  url_launcher: ^6.1.11
+  http: ^0.13.5  # For direct upload (optional)
+  fluttertoast: ^8.2.2
+  permission_handler: ^10.4.0
+  crypto: ^3.0.3  # For SHA1 hashing
+  mime: ^1.0.4
+  path: ^1.8.2
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env  
